@@ -14,18 +14,32 @@ h1 {
 }
 
 .header {
+<<<<<<< HEAD
   background-color: #0593ffb3;
+=======
+  background-color: #00bfff;
+>>>>>>> 8867dff1019452cc7b2aa0839801611e734f8c22
   text-align: center;
   padding: .3rem;  
 }
 
 .topnav {
   overflow: hidden;
+<<<<<<< HEAD
   height: 2rem;
   background-color: #0593ffb3;
   
   display: flex;
   justify-content: center; 
+=======
+  background-color:#00bfff;
+  justify-content: center;
+  margin: auto;
+}
+
+.cont{
+	
+>>>>>>> 8867dff1019452cc7b2aa0839801611e734f8c22
 }
 
 .topnav a {
@@ -39,6 +53,7 @@ h1 {
 a {
   text-decoration: none;
   color: black;
+  border-radius: .35rem;
 }
 
 .top:hover {
@@ -81,7 +96,11 @@ a {
 .footer {
   display: grid;
   place-items: center;
+<<<<<<< HEAD
   background-color: #0593ffb3;
+=======
+  background-color:#00bfff;
+>>>>>>> 8867dff1019452cc7b2aa0839801611e734f8c22
 }
 
 .footer a {
