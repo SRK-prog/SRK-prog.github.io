@@ -23,7 +23,6 @@ h1 {
   overflow: hidden;
   height: 2rem;
   background-color: #0593ffb3;
-  
   display: flex;
   justify-content: center; 
 }
@@ -33,7 +32,7 @@ h1 {
   display: block;
   font-size: 1.1rem;
   color: block;
-  padding: .50rem 2rem;
+  padding: .10rem 2rem;
 }
 
 a {
@@ -117,21 +116,12 @@ a {
 }
 
 .next a:hover{
-  margin: 1rem;
-  color: white;
-  background-color: #d0d0d0;
-  padding: .20rem .7rem;
-  border: 2px solid #9e9e9e;
-  border-radius: .25rem;
+  transform: scale(.95);
 }
 
-.next a:active{
-  margin: 1rem;
-  color: white;
-  background-color: #d0d0d0;
-  padding: .20rem .7rem;
-  border: 2px solid #9e9e9e;
-  border-radius: .25rem;
+.next a:active{ 
+  transform: scale(.95);
+ 
 }
 
 .main-info {
