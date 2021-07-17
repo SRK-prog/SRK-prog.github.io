@@ -119,8 +119,8 @@ a {
 .next a:hover{
   margin: 1rem;
   color: white;
+  transform: scale(.90);
   background-color: #d0d0d0;
-  padding: .20rem .7rem;
   border: 2px solid #9e9e9e;
   border-radius: .25rem;
 }
@@ -129,7 +129,7 @@ a {
   margin: 1rem;
   color: white;
   background-color: #d0d0d0;
-  padding: .20rem .7rem;
+  transform: scale(.90);
   border: 2px solid #9e9e9e;
   border-radius: .25rem;
 }
